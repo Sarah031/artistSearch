@@ -1,0 +1,110 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(217, 217, 253);
+}
+h1 {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: black;
+  padding-bottom: 30px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  background-image: url("./music-cover.jpg");
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 600px;
+  margin-top: 30px !important;
+  border-radius: 10px;
+  opacity: 0.9;
+}
+
+h1 {
+  font-family: "open sans";
+  font-size: 22px;
+  color: white;
+  padding-bottom: 30px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+input {
+  border-radius: 5px;
+  margin: 20px;
+  padding: 15px 40px;
+  border-style: none;
+  opacity: 55%;
+  box-shadow: rgba(5, 5, 157, 0.5) 2px 2px 40px 2px;
+}
+
+button {
+  padding: 10px;
+  border-style: none;
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  color: white;
+  background-color: #856acf;
+  width: 80px;
+  margin: auto;
+}
+
+button:hover {
+  background-color: white;
+  color: rgb(61, 95, 133);
+}
+.containerbox {
+  display: flex;
+}
+#search-result {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center !important;
+  margin: auto;
+  text-align: center;
+  opacity: 0.6;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  padding-left: 250px;
+}
+
+li span {
+  padding-bottom: 10px;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.artistContainer {
+  display: flex;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+.searchFormcontainer {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
