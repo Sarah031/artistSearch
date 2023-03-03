@@ -1,15 +1,3 @@
-// data = await fetch("https://itunes.apple.com/search?entity=allArtist&attribute=allArtistTerm&term=maroon");
-
-// <section>
-//       <div>
-//         <input type="text" />
-//         <button type="submit">SEARCH</button>
-//       </div>
-//       <div>
-//         <h2>Artist name:</h2>
-//         <p>Genre:</p>
-//       </div>
-
 function init() {
   const search = document.getElementById("search");
   const button = document.getElementById("searchButton");
